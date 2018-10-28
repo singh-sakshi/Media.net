@@ -1,0 +1,44 @@
+header{
+    background-color: black;
+    color: white;
+    font-size: 45px;
+
+
+}
+header div{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.movie_image img{
+	width:200px;
+	height:100px;
+}
+#movie_data{
+	 display:flex;
+	 flex-direction:row;
+	 flex-wrap:wrap;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 40px;
+}
+#movie_data div {
+    width: 20%;
+    padding-bottom: 5%;
+    height: 350px;
+}
+#movie_data div img{
+    width: 95%;
+    height: 300px;
+
+}
+.search-container{
+	width: 50%;
+    margin: 2% 32%;
+}
+#title{
+	width:200px;
+}
